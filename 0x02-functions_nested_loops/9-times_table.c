@@ -31,9 +31,9 @@ void times_table(void)
 			else if (m == 9)
 			{
 			if (r >= 10)
-				printf(" %d$\n", r);
+				printf(" %d\n", r);
 			else
-				printf("  %d$\n", r);
+				printf("  %d\n", r);
 			}
 			}
 		}
