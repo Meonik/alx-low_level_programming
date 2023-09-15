@@ -12,7 +12,7 @@ int main(void)
 	{
 		if ((prime % 2) == 0)
 		{
-			print /= 2;
+			prime /= 2;
 			continue;
 		}
 		for (divisor = 3; divisior < (prime / 2); divisor += 2)
