@@ -5,7 +5,7 @@
  * Return: returns 1 if true and 0 if false.
  */
 
-int _isupper(char c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
